@@ -73,21 +73,3 @@ Note that you don't need to use the advanced settings. This is only for people t
 You can add custom dimension support by providing the dimension registry name, the item registry name, and the text color in a json file under /config/sedparties/dims. To support RFToolsDimensions, you must use the dimension registry name 'rftoolsdim:dim'. You can view examples in the folder under the file default.json. To reload dimension files you can type the command /party reload. Note that this also re-writes all default presets under the defaultconfigs folder, so can be used in case those were deleted somehow as well.
 
 The advanced party settings window automatically closes when you take damage. This is to prevent needless death in case you're no longer safe. The advanced party settings window can also be dragged by clicking from outside the party settings window and dragging. Useful in case the window's default position covers your party frame.
-
-⭐Future Plans
-
-⌛Add XP sharing
-
-⌛Add visual party indicator positions.
-
-⌛Port to latest Minecraft versions
-
-⌛(Maybe) Port to 1.16. 
-
-⌛Add Pet Frame support
-
-⌛Add Ars Noveau Mana support
-
-⌛Add tab-target support for Ars Noveau's spell system.
-
-⌛Add custom support for FTBTeams (Parties are bound to teams, and/or ability to invite all team members at once).
