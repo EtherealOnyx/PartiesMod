@@ -28,41 +28,25 @@ Track your party member's health, experience, or even dimension! Currently, ther
 
 ✔ Transparent Box: A background box to aid with text visibility for elements that have it (like hunger text, armor text, and name). Can be resized/moved.
 
- 
-
 ⌛Clickable Box Area: A box that currently has little use (the party settings icons snaps to this box). In the future, it will support clicking frames - and this box defines the area/outline of the party frame. Almost like a tab target rpg! (Support for Ars Noveau).
 
 ⌛Mana Bar: This, although not implemented yet, will represent another bar that shows the player's current mana levels, similar to the Health Bar! (Support for Ars Noveau).
 
 ⌛Pet Frame: Although not implemented yet, will represent a pet that the player has tamed and will display basic elements like health, name, and armor.
-
  
-
 Almost every single element has extra configurability like scale, position, and even a toggle to enable or disable the element.
-
- 
 
 ⭐ Getting Started
 
 ‣ To create a party, you invite another player through the command '/party invite PlayerName'. They will get a chat notification and will be able to click Accept or Decline (by recalling the mouse) or use the following commands: '/party accept' or '/party decline'. You can only invite someone that doesn't have a party.
 
- 
-
 ‣ The inviter will become the party leader. They can transfer leadership by using the following command: '/party leader PlayerName'. Please note that only the party leader can kick/invite other players to the party. Also note that the party size limit is default of 5 and can be configured on the server.
-
- 
 
 ‣ Players can leave their party by using the command '/party leave'. You can only join another party when you're not currently in one.
 
- 
-
 ‣ There is an extra keybind under Game Interface called 'Show Mouse (Party UI). It defaults to Left Alt. Using this keybind recalls the mouse which allows you to hover over the chat screen (and click on links, including accept/decline invites). This also allows you to hover over elements that have tooltips like the hunger, health, and dimension indicators, for example. Pressing this keybind also makes two buttons visible: Party Settings, and a Preset Loader. The Party Settings displays more buttons that allows you to manipulate the party frame's position, the player order, or open the advanced party settings. The preset loader button allows you to load presets (either default or custom ones in the folder config/sedparties/presets). 
 
- 
-
 ‣ The advanced party settings may be a bit complicated at first, but will get easier once you get the hang of it. The first button on the top-left allows you to load other presets. Note that this overwrites your current one! The several buttons on the right of the load button allows you to configure every element available in the mod. This ranges from position, scale, visibility, to even disabling specific animations. Note that this updates the UI in real-time, but doesn't save the preset to a file. You can save a preset by filling the name and description boxes on the bottom of this screen and clicking the save button.
-
- 
 
 ‣ The extra buttons on the right of the UI are also useful:
 
@@ -88,8 +72,6 @@ Note that you don't need to use the advanced settings. This is only for people t
 
 You can add custom dimension support by providing the dimension registry name, the item registry name, and the text color in a json file under /config/sedparties/dims. To support RFToolsDimensions, you must use the dimension registry name 'rftoolsdim:dim'. You can view examples in the folder under the file default.json. To reload dimension files you can type the command /party reload. Note that this also re-writes all default presets under the defaultconfigs folder, so can be used in case those were deleted somehow as well.
 
- 
-
 The advanced party settings window automatically closes when you take damage. This is to prevent needless death in case you're no longer safe. The advanced party settings window can also be dragged by clicking from outside the party settings window and dragging. Useful in case the window's default position covers your party frame.
 
 ⭐Future Plans
@@ -109,5 +91,3 @@ The advanced party settings window automatically closes when you take damage. Th
 ⌛Add tab-target support for Ars Noveau's spell system.
 
 ⌛Add custom support for FTBTeams (Parties are bound to teams, and/or ability to invite all team members at once).
-
-Feel free to use this mod in any modpack, and please report bus or add suggestions in the issue tracker!
